@@ -3,9 +3,9 @@ error_reporting(0);
 	//Class connection database
 	class Db extends PDO{
 		
-		private $host 		= 'localhost';
-		private $user		= 'root';
-		private $password	= '';
+		private $host 		= 'prisonboy.mysql.uhserver.com';
+		private $user		= 'prisonboy';
+		private $password	= 'Game@16041981';
 		private $dbname 	= 'prisonboy';
 
 
