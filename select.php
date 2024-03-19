@@ -1,7 +1,9 @@
 <?php 
 header('Content-Type: text/html; charset=utf-8');
 header("Access-Control-Allow-Origin: *");
-$_SERVER['https://miltongamedev.github.io/prisonboy/']
+header('Access-Control-Allow-Credentials: true');    
+header("Access-Control-Allow-Methods: GET, POST, OPTIONS");
+//$_SERVER['https://miltongamedev.github.io/prisonboy/']
 require_once("classes/ranking.class.php");
 $ranking = new Ranking();
 
